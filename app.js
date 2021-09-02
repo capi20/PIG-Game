@@ -8,7 +8,7 @@ document.querySelector('.btn-roll').addEventListener('click', function(){
 
 	var diceDOM = document.querySelector('.dice')
 	diceDOM.style.display = 'block';
-	diceDOM.src = 'dice-' + dice + '.png';
+	diceDOM.src = './images/dice-' + dice + '.png';
 
 	if (dice !== 1){
 		roundScore += dice;
